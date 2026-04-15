@@ -78,3 +78,4 @@ for name, model in model_options.items() :
         
         print(f'Generated Summary:\n{hypothesis}\n')
         print(f'ROUGE Scores:\n{scores}\n')
+        print('-----------------------------------------------------------------------------------')
