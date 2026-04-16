@@ -103,7 +103,8 @@ class TextSummarizer :
                     'reduction_percent': reduction_percent,
                     'processing_time': round(processing_time, 2),
                     'model_used': self.model_name,
-                    'device': self.device
+                    'device': self.device,
+                    'input_text': cleaned_text
                 }
             }
         
